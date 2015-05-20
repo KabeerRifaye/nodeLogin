@@ -1,0 +1,34 @@
+body{
+	counter-reset: Serial;
+}
+
+.adduser_validation{
+	background-color: #D13655;
+	font-weight: bolder;
+}
+
+.color-view,.color-view:hover {
+	color:#9CCC65;
+}
+
+.color-edit,.color-edit:hover{
+	color:#337ab7;
+}
+
+.color-delete,.color-delete:hover{
+	color:#F4511E;
+	cursor: pointer;
+}
+
+tr td:first-child:before{
+	counter-increment: Serial;
+	content: counter(Serial);
+}
+
+.img_loader{
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+	color: #DDDDDD;
+}
